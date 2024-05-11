@@ -23,7 +23,6 @@ function initializeBot() {
     console.log('Bot logado e pronto para explorar e gerenciar itens!');
     this.mcData = minecraftData(this.version);
     this.pathfinder.setMovements(new Movements(this, this.mcData));
-    this.findHostiles = setInterval(() => detectAndCombatHostiles(this), 5000);
     startSafeExploration(this);
 }
 
