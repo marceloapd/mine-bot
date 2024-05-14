@@ -4,7 +4,7 @@ const minecraftData = require('minecraft-data');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'pigfish.aternos.host',
+        host: 'assisDev.aternos.me',
         port: 64109,
         username: 'BotExplorer',
         version: false
